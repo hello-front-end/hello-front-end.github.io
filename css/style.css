@@ -1,6 +1,27 @@
-header.site-header {
-	border-top-color: #fff;
+header.site-header{
+	/*border-top-color: #fff;*/
+	border: none;
+	background-color: black;
+	font-size: 1.3em;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	/*color:#fff;*/
 }
-a:hover {
+footer {
+	background-color: black;
+	color: #fff;
+
+}
+footer.site-footer div.footer-col{
+	color: #fff;
+}
+header.site-header div.wrapper a.site-title,header.site-header div.wrapper div.trigger a.page-link {
+	margin-left: 20px;
+	color: #fff;
+}
+ a:hover {
 	text-decoration: none;
+}
+footer a:hover {
+	color: #fff;
 }
